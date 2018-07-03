@@ -94,6 +94,7 @@ class SocketManagerTest: NSObject {
         super.init()
     }
     
+    let serverurl = "http://192.168.0.8:1337"
     func establishConnection(){
         if self.closeConnection()
         {
@@ -108,7 +109,7 @@ class SocketManagerTest: NSObject {
                 socket = nil
             }
             options = [] as SocketIOClientConfiguration
-//            options.insert(.connectParams(["__sails_io_sdk_version":"1.0.2"]))
+            options.insert(.connectParams(["__sails_io_sdk_version":"1.0.2"]))
             options.insert(.reconnectAttempts(1000))
             options.insert(.reconnectWait(3))
             options.insert(.log(true))
@@ -116,7 +117,7 @@ class SocketManagerTest: NSObject {
             options.insert(.forceWebsockets(true))
             
             
-            manager = SocketManager(socketURL: URL(string: "http://192.168.0.73:1337")!, config: options)
+            manager = SocketManager(socketURL: URL(string: serverurl)!, config: options)
             socket = manager.defaultSocket
             
             self.socket.on("disconnect"){data, ack in
@@ -151,7 +152,7 @@ class SocketManagerTest: NSObject {
     
     func emitPost() -> Void {
 
-        let dictParameters = [ "url": String("http://192.168.0.73:1337/v1/socket-testPost")]
+        let dictParameters = [ "url": String(serverurl + "/v1/socket-testPost")]
         self.socket.emitWithAck("post", with: [dictParameters]).timingOut(after: 10) {data in
             
             print(data);
@@ -160,7 +161,7 @@ class SocketManagerTest: NSObject {
     
     func emitGet() -> Void {
         
-        let dictParameters = [ "url": String("http://192.168.0.73:1337/v1/socket-testGet")]
+        let dictParameters = [ "url": String( serverurl + "/v1/socket-testGet")]
         self.socket.emitWithAck("post", with: [dictParameters]).timingOut(after: 10) {data in
             
             print(data);
@@ -169,7 +170,7 @@ class SocketManagerTest: NSObject {
 
     func emitPut() -> Void {
         
-        let dictParameters = [ "url": String("http://192.168.0.73:1337/v1/socket-testPut")]
+        let dictParameters = [ "url": String( serverurl + "/v1/socket-testPut")]
         self.socket.emitWithAck("post", with: [dictParameters]).timingOut(after: 10) {data in
             
             print(data);
