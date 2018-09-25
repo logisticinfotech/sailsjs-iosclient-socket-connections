@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,11 +25,17 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+    }
+    
+    @IBAction func onClickstartWithUser(_ sender: Any) {
     }
     @IBAction func onClickConnect(_ sender: Any) {
         SocketManagerTest.sharedInstance.establishConnection()
+        let roomVC = self.storyboard?.instantiateViewController(withIdentifier: "ChatRoomVC") as! ChatRoomVC
+        self.navigationController?.pushViewController(roomVC, animated: true)
         SocketManagerTest.sharedInstance.establishConnectionReturn { (socketData) -> Void in
+//            let roomVC = self.storyboard?.instantiateViewController(withIdentifier: "ChatRoomVC") as! ChatRoomVC
+//            self.navigationController?.pushViewController(roomVC, animated: true)
         }
     }
     

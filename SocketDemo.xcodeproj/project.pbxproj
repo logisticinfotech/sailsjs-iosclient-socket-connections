@@ -3,22 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		697A72B8212BE508007119DE /* ChatRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72B7212BE508007119DE /* ChatRoomVC.swift */; };
+		6B443F6A215635EA00B80B2D /* SDChatBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B443F69215635EA00B80B2D /* SDChatBean.swift */; };
 		A57032A8C01D6CD9BCF7DED8 /* Pods_SocketDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E231914C074A62820A95F12 /* Pods_SocketDemo.framework */; };
+		AB2330AD2135362400C02D48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330AC2135362400C02D48 /* Constants.swift */; };
+		AB2330B62135472000C02D48 /* AFUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330B52135472000C02D48 /* AFUtility.swift */; };
+		AB2330B92135488700C02D48 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330B82135488700C02D48 /* AppHelper.swift */; };
+		AB2330BE213552E700C02D48 /* SDCreateUserSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2330BC213552E700C02D48 /* SDCreateUserSB.storyboard */; };
+		AB2330BF213552E700C02D48 /* SDCreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330BD213552E700C02D48 /* SDCreateUserVC.swift */; };
+		AB2330C22135532000C02D48 /* SDUserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330C12135532000C02D48 /* SDUserListVC.swift */; };
+		AB2330C42135533600C02D48 /* SDUserListSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2330C32135533600C02D48 /* SDUserListSB.storyboard */; };
+		AB2330C72135542500C02D48 /* SDUserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330C62135542500C02D48 /* SDUserListCell.swift */; };
+		AB2330CA21355AAA00C02D48 /* SDOnlineUserBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330C921355AAA00C02D48 /* SDOnlineUserBean.swift */; };
+		AB2330CD21355CDB00C02D48 /* SDChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330CC21355CDB00C02D48 /* SDChatVC.swift */; };
+		AB2330CF21355CE900C02D48 /* SDChatSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2330CE21355CE900C02D48 /* SDChatSB.storyboard */; };
+		AB2330D221355FE200C02D48 /* SDSenderTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330D121355FE200C02D48 /* SDSenderTextCell.swift */; };
+		AB2330D421355FFC00C02D48 /* SDReceiverTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2330D321355FFC00C02D48 /* SDReceiverTextCell.swift */; };
+		AB40050D213685F80078FA66 /* SocketHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40050C213685F80078FA66 /* SocketHelper.swift */; };
+		AB5B8A27213912DC0049E3A7 /* UIViewcontroller+NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B8A26213912DC0049E3A7 /* UIViewcontroller+NavigationButton.swift */; };
 		F12876E420EA45AB00D2CFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12876E320EA45AB00D2CFA2 /* AppDelegate.swift */; };
 		F12876E620EA45AB00D2CFA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12876E520EA45AB00D2CFA2 /* ViewController.swift */; };
 		F12876E920EA45AB00D2CFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12876E720EA45AB00D2CFA2 /* Main.storyboard */; };
 		F12876EB20EA45AD00D2CFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12876EA20EA45AD00D2CFA2 /* Assets.xcassets */; };
 		F12876EE20EA45AD00D2CFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12876EC20EA45AD00D2CFA2 /* LaunchScreen.storyboard */; };
-		F12876F620EA474100D2CFA2 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12876F520EA474100D2CFA2 /* SocketManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		697A72B7212BE508007119DE /* ChatRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomVC.swift; sourceTree = "<group>"; };
+		6B443F69215635EA00B80B2D /* SDChatBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatBean.swift; sourceTree = "<group>"; };
 		7E231914C074A62820A95F12 /* Pods_SocketDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BD08C928711FB927DB657 /* Pods-SocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketDemo/Pods-SocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2330AC2135362400C02D48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB2330B52135472000C02D48 /* AFUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFUtility.swift; sourceTree = "<group>"; };
+		AB2330B82135488700C02D48 /* AppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		AB2330BC213552E700C02D48 /* SDCreateUserSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SDCreateUserSB.storyboard; sourceTree = "<group>"; };
+		AB2330BD213552E700C02D48 /* SDCreateUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCreateUserVC.swift; sourceTree = "<group>"; };
+		AB2330C12135532000C02D48 /* SDUserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUserListVC.swift; sourceTree = "<group>"; };
+		AB2330C32135533600C02D48 /* SDUserListSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SDUserListSB.storyboard; sourceTree = "<group>"; };
+		AB2330C62135542500C02D48 /* SDUserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUserListCell.swift; sourceTree = "<group>"; };
+		AB2330C921355AAA00C02D48 /* SDOnlineUserBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDOnlineUserBean.swift; sourceTree = "<group>"; };
+		AB2330CC21355CDB00C02D48 /* SDChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatVC.swift; sourceTree = "<group>"; };
+		AB2330CE21355CE900C02D48 /* SDChatSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SDChatSB.storyboard; sourceTree = "<group>"; };
+		AB2330D121355FE200C02D48 /* SDSenderTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSenderTextCell.swift; sourceTree = "<group>"; };
+		AB2330D321355FFC00C02D48 /* SDReceiverTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDReceiverTextCell.swift; sourceTree = "<group>"; };
+		AB40050C213685F80078FA66 /* SocketHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketHelper.swift; sourceTree = "<group>"; };
+		AB5B8A26213912DC0049E3A7 /* UIViewcontroller+NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewcontroller+NavigationButton.swift"; sourceTree = "<group>"; };
 		AE1E1622C028EA9E9C31AC3B /* Pods-SocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketDemo/Pods-SocketDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F12876E020EA45AB00D2CFA2 /* SocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12876E320EA45AB00D2CFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +60,6 @@
 		F12876EA20EA45AD00D2CFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12876ED20EA45AD00D2CFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12876EF20EA45AD00D2CFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F12876F520EA474100D2CFA2 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +81,169 @@
 				AE1E1622C028EA9E9C31AC3B /* Pods-SocketDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB2330A52135357100C02D48 /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330C821355A9300C02D48 /* DataBeans */,
+				AB2330AE2135365600C02D48 /* Extensions */,
+				AB2330AB2135360A00C02D48 /* Constants */,
+				AB2330A62135359A00C02D48 /* Utilities */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+		AB2330A62135359A00C02D48 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330A7213535D000C02D48 /* HelperClasses */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AB2330A7213535D000C02D48 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330B72135488700C02D48 /* AppHelper */,
+				AB2330B42135472000C02D48 /* NetworkHelper */,
+				AB2330A8213535D000C02D48 /* SocketHelper */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		AB2330A8213535D000C02D48 /* SocketHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AB40050C213685F80078FA66 /* SocketHelper.swift */,
+			);
+			path = SocketHelper;
+			sourceTree = "<group>";
+		};
+		AB2330AB2135360A00C02D48 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330AC2135362400C02D48 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AB2330AE2135365600C02D48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B8A26213912DC0049E3A7 /* UIViewcontroller+NavigationButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB2330B42135472000C02D48 /* NetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330B52135472000C02D48 /* AFUtility.swift */,
+			);
+			path = NetworkHelper;
+			sourceTree = "<group>";
+		};
+		AB2330B72135488700C02D48 /* AppHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330B82135488700C02D48 /* AppHelper.swift */,
+			);
+			path = AppHelper;
+			sourceTree = "<group>";
+		};
+		AB2330BA213552E700C02D48 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330CB21355CBF00C02D48 /* ChatMainScreen */,
+				AB2330C02135530C00C02D48 /* UserList */,
+				AB2330BB213552E700C02D48 /* CreateUser */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		AB2330BB213552E700C02D48 /* CreateUser */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330BC213552E700C02D48 /* SDCreateUserSB.storyboard */,
+				AB2330BD213552E700C02D48 /* SDCreateUserVC.swift */,
+			);
+			path = CreateUser;
+			sourceTree = "<group>";
+		};
+		AB2330C02135530C00C02D48 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330C52135540D00C02D48 /* CustomCell */,
+				AB2330C12135532000C02D48 /* SDUserListVC.swift */,
+				AB2330C32135533600C02D48 /* SDUserListSB.storyboard */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		AB2330C52135540D00C02D48 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330C62135542500C02D48 /* SDUserListCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		AB2330C821355A9300C02D48 /* DataBeans */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330C921355AAA00C02D48 /* SDOnlineUserBean.swift */,
+				6B443F69215635EA00B80B2D /* SDChatBean.swift */,
+			);
+			path = DataBeans;
+			sourceTree = "<group>";
+		};
+		AB2330CB21355CBF00C02D48 /* ChatMainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330D021355FB100C02D48 /* CustomCell */,
+				AB2330CC21355CDB00C02D48 /* SDChatVC.swift */,
+				AB2330CE21355CE900C02D48 /* SDChatSB.storyboard */,
+			);
+			path = ChatMainScreen;
+			sourceTree = "<group>";
+		};
+		AB2330D021355FB100C02D48 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330D121355FE200C02D48 /* SDSenderTextCell.swift */,
+				AB2330D321355FFC00C02D48 /* SDReceiverTextCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		AB5B7F8321352A7C008DF9B5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2330BA213552E700C02D48 /* Chat */,
+				697A72B7212BE508007119DE /* ChatRoomVC.swift */,
+				F12876E520EA45AB00D2CFA2 /* ViewController.swift */,
+				F12876E720EA45AB00D2CFA2 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB5B7F8B21352B58008DF9B5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F12876EC20EA45AD00D2CFA2 /* LaunchScreen.storyboard */,
+				F12876E320EA45AB00D2CFA2 /* AppDelegate.swift */,
+				F12876EF20EA45AD00D2CFA2 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AB5B7F8C21352BB7008DF9B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F12876EA20EA45AD00D2CFA2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C3BD940BF208224C5D39B70D /* Frameworks */ = {
@@ -80,13 +275,10 @@
 		F12876E220EA45AB00D2CFA2 /* SocketDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F12876F520EA474100D2CFA2 /* SocketManager.swift */,
-				F12876E320EA45AB00D2CFA2 /* AppDelegate.swift */,
-				F12876E520EA45AB00D2CFA2 /* ViewController.swift */,
-				F12876E720EA45AB00D2CFA2 /* Main.storyboard */,
-				F12876EA20EA45AD00D2CFA2 /* Assets.xcassets */,
-				F12876EC20EA45AD00D2CFA2 /* LaunchScreen.storyboard */,
-				F12876EF20EA45AD00D2CFA2 /* Info.plist */,
+				AB5B7F8321352A7C008DF9B5 /* Controllers */,
+				AB2330A52135357100C02D48 /* SharedClasses */,
+				AB5B7F8C21352BB7008DF9B5 /* Resources */,
+				AB5B7F8B21352B58008DF9B5 /* SupportingFiles */,
 			);
 			path = SocketDemo;
 			sourceTree = "<group>";
@@ -125,11 +317,12 @@
 				TargetAttributes = {
 					F12876DF20EA45AB00D2CFA2 = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = F12876DB20EA45AB00D2CFA2 /* Build configuration list for PBXProject "SocketDemo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +344,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2330CF21355CE900C02D48 /* SDChatSB.storyboard in Resources */,
 				F12876EE20EA45AD00D2CFA2 /* LaunchScreen.storyboard in Resources */,
+				AB2330BE213552E700C02D48 /* SDCreateUserSB.storyboard in Resources */,
 				F12876EB20EA45AD00D2CFA2 /* Assets.xcassets in Resources */,
+				AB2330C42135533600C02D48 /* SDUserListSB.storyboard in Resources */,
 				F12876E920EA45AB00D2CFA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,13 +381,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SocketDemo/Pods-SocketDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -205,9 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2330B62135472000C02D48 /* AFUtility.swift in Sources */,
+				AB2330CD21355CDB00C02D48 /* SDChatVC.swift in Sources */,
+				AB2330C72135542500C02D48 /* SDUserListCell.swift in Sources */,
+				AB2330AD2135362400C02D48 /* Constants.swift in Sources */,
 				F12876E620EA45AB00D2CFA2 /* ViewController.swift in Sources */,
-				F12876F620EA474100D2CFA2 /* SocketManager.swift in Sources */,
+				AB2330CA21355AAA00C02D48 /* SDOnlineUserBean.swift in Sources */,
+				AB40050D213685F80078FA66 /* SocketHelper.swift in Sources */,
+				AB2330B92135488700C02D48 /* AppHelper.swift in Sources */,
+				6B443F6A215635EA00B80B2D /* SDChatBean.swift in Sources */,
+				697A72B8212BE508007119DE /* ChatRoomVC.swift in Sources */,
+				AB5B8A27213912DC0049E3A7 /* UIViewcontroller+NavigationButton.swift in Sources */,
+				AB2330D421355FFC00C02D48 /* SDReceiverTextCell.swift in Sources */,
+				AB2330C22135532000C02D48 /* SDUserListVC.swift in Sources */,
+				AB2330D221355FE200C02D48 /* SDSenderTextCell.swift in Sources */,
 				F12876E420EA45AB00D2CFA2 /* AppDelegate.swift in Sources */,
+				AB2330BF213552E700C02D48 /* SDCreateUserVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,11 +555,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -352,14 +568,15 @@
 			baseConfigurationReference = 8F0BD08C928711FB927DB657 /* Pods-SocketDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SocketDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JUGDE9K6Y2;
+				INFOPLIST_FILE = SocketDemo/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.logistic.SocketDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e773e14a-0342-40b4-a770-b38dcded1f26";
+				PROVISIONING_PROFILE_SPECIFIER = LOGISTICDEV;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,14 +587,15 @@
 			baseConfigurationReference = AE1E1622C028EA9E9C31AC3B /* Pods-SocketDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SocketDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JUGDE9K6Y2;
+				INFOPLIST_FILE = SocketDemo/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.logistic.SocketDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e773e14a-0342-40b4-a770-b38dcded1f26";
+				PROVISIONING_PROFILE_SPECIFIER = LOGISTICDEV;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
