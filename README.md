@@ -1,7 +1,7 @@
 # iOS socket client connection with Sails server
 Here you can find an easy and awesome way to connect your iOS socket client with Sails server and how to do simple chat application.
 
-You can find step by step guide [here](https://www.logisticinfotech.com/blog/realtime-communication-using-socketio-sailsjs/) about how to implemenent it in your project. You can also customise the number of menu.
+You can find step by step guide [here](https://www.logisticinfotech.com/blog/realtime-communication-using-socketio-sailsjs/) about how to communicate with sails server pubsub.
 
 
 
