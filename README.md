@@ -3,8 +3,6 @@ Here you can find an easy and awesome way to connect your iOS socket client with
 
 You can find step by step guide [here](https://www.logisticinfotech.com/blog/realtime-communication-using-socketio-sailsjs/) about how to implemenent it in your project. You can also customise the number of menu.
 
-//# Preview
-//![](https://www.logisticinfotech.com/wp-content/uploads/2018/09/android_contextual_menu.gif)
 
 
 # License
